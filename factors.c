@@ -1,12 +1,18 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main - the main func
+ *
+ * Return: return void
+*/
+
+int main(void)
 {
 	long long int num = 239809320265259;
 	long int num1 = 2;
 	long int num2;
 
-	while (num % num1)
+	while (num % num1 != 0)
 	{
 		if (num1 <= num)
 		{
